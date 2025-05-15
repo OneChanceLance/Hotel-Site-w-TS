@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import navigationBar from './components/navigationBar.vue';
 import HelloWorld from './components/HelloWorld.vue';
+import RoomSearch from './components/RoomSearch.vue';
 
 </script>
 
 <template>
   <navigationBar textbox="Search..." />
+  <RoomSearch />
   <HelloWorld msg="Vite + Vue" />
   <div>
     <a href="https://vite.dev" target="_blank">
